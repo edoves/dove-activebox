@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Cardo:ital@1&family=Open+Sans:wght@600&family=Raleway:wght@400;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cardo:ital@1&family=Open+Sans:wght@700&family=Raleway:wght@400;500&display=swap");
 
 *,
 *::before,
@@ -33,6 +33,14 @@ img {
   width: 80%;
   max-width: 1200px;
   margin: 0 auto;
+}
+
+.btn {
+  color: #fff;
+  background-color: $primary-color;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  padding: 1rem 4rem;
 }
 
 %flex-center {
