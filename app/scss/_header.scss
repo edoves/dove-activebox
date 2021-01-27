@@ -1,0 +1,28 @@
+.header {
+  background-image: url("/img/banner.jpg");
+  &__nav {
+    display: flex;
+    @extend %flex-sb;
+    flex-wrap: wrap;
+    padding: 1.6rem;
+  }
+
+  &__logo {
+  }
+
+  &__menu {
+    display: flex;
+    flex: 0 0 60rem;
+    justify-content: space-around;
+    li {
+      font-size: 1.6rem;
+      a {
+        color: #fff;
+        text-transform: uppercase;
+      }
+    }
+  }
+
+  &__text {
+  }
+}
