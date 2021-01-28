@@ -1,0 +1,18 @@
+.team {
+  padding: 8rem 0;
+
+  &__content {
+    display: flex;
+  }
+
+  &__profile {
+    h3 {
+      text-transform: capitalize;
+      span {
+        display: block;
+        text-transform: uppercase;
+        color: $primary-color;
+      }
+    }
+  }
+}

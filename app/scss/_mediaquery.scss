@@ -1,6 +1,6 @@
 $mobile: "40em"; //640px
 $tablet: "48em"; //768px
-$desktop: "65em"; //1024px
+$desktop: "64em"; //1024px
 
 @mixin respond($breakpoint) {
   @if $breakpoint == phone {

@@ -3,7 +3,7 @@
 
   &__content {
     display: flex;
-    @extend %flex-center;
+    @extend %flex-sa;
     flex-wrap: wrap;
   }
 
