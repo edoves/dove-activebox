@@ -1,0 +1,20 @@
+.cta {
+  padding: 8rem 0;
+
+  &__content {
+    text-align: center;
+
+    p {
+      font-size: clamp(1.6rem, 2vw, 3rem);
+      margin-bottom: 1.6rem;
+    }
+
+    span {
+      font-size: 1.2rem;
+      font-weight: bold;
+      text-transform: uppercase;
+      display: block;
+      margin-bottom: 3rem;
+    }
+  }
+}
