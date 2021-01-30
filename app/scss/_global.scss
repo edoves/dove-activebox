@@ -27,11 +27,12 @@ a {
 
 img {
   // width: 100%;
+  display: block;
 }
 
 .container {
   width: 80%;
-  max-width: 1200px;
+  max-width: 120rem;
   margin: 0 auto;
 }
 
