@@ -1,0 +1,87 @@
+.testimonial {
+  width: 100%;
+
+  .flex {
+    flex: 1 50rem;
+  }
+
+  &__container {
+    display: flex;
+    flex-wrap: wrap;
+
+    .images {
+      overflow: hidden;
+
+      &__slider {
+        display: flex;
+        width: 500%;
+        transition: all 250ms ease;
+
+        li {
+          flex: 1;
+          img {
+            width: 100%;
+          }
+        }
+      }
+    }
+
+    .text {
+      background-color: #53354a;
+      color: #fff;
+
+      position: relative;
+
+      &__container {
+        width: 50rem;
+        overflow: hidden;
+        position: absolute;
+        top: 45%;
+        left: 40%;
+        transform: translate(-50%, -50%);
+      }
+
+      &__slider {
+        display: flex;
+        width: 251rem;
+        transition: all 250ms ease;
+
+        p {
+          font-size: clamp(2rem, 5vw, 3rem);
+          font-style: italic;
+
+          &:before {
+            content: "\201C";
+            font-size: 5rem;
+          }
+          &:after {
+            content: "\201D";
+            font-size: 5rem;
+          }
+        }
+        span {
+          font-size: 1.6rem;
+          text-transform: uppercase;
+        }
+      }
+    }
+
+    .sliderNav {
+      display: flex;
+      margin-top: 2rem;
+
+      .active {
+        background: #fff;
+      }
+
+      li {
+        cursor: pointer;
+        margin-right: 1rem;
+        width: 1rem;
+        height: 1rem;
+        background: #755d6e;
+        border-radius: 50%;
+      }
+    }
+  }
+}
